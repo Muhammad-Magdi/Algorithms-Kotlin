@@ -14,10 +14,10 @@ package algorithms
  *  - O(1)
  */
 fun insert(arr: IntArray, sortedSize: Int, value: Int) {
-    var i = sortedSize-1
-    while (i >= 0 && arr[i] > value) {
-        arr[i+1] = arr[i]
-        --i
-    }
-    arr[i+1] = value
+  var i = sortedSize - 1
+  while (i >= 0 && arr[i] > value) {
+    arr[i + 1] = arr[i]
+    --i
+  }
+  arr[i + 1] = value
 }
