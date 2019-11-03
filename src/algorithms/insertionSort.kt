@@ -11,7 +11,7 @@ package algorithms
  *  - O(1)
  */
 fun insertionSort(arr: IntArray) {
-  for (i in arr.indices) {
+  for (i in 1 until arr.size) {
     insert(arr, i, arr[i])
   }
 }

@@ -10,7 +10,7 @@ package algorithms
  *  - O(1)
  */
 fun selectionSort(arr: IntArray) {
-  for (i in arr.indices) {
+  for (i in 1 until arr.size - 1) {
     val minIndex = selectMin(arr, i)
     arr[i] = arr[minIndex].also { arr[minIndex] = arr[i] } //Swap
   }
