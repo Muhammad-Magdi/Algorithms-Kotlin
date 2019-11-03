@@ -1,11 +1,12 @@
 import algorithms.*
 
 fun main() {
-  val arr = intArrayOf(1, 3, 5, 7, 6, 10, -1, 2)
+  val arr = intArrayOf(1, 3, 5, 7, -1, 2, 6, 10)
 //  insert(arr, 4, arr[4])
 //  insertionSort(arr)
 //  val minIndex = selectMin(arr)
 //  println(minIndex)
-  selectionSort(arr)
-  arr.forEach { println(it) }
+//  selectionSort(arr)
+  val mergedArray = mergeArrays(arr, arr, 0, 4, 4, 8)
+  mergedArray.forEach { println(it) }
 }
