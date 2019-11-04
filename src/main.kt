@@ -7,6 +7,7 @@ fun main() {
 //  val minIndex = selectMin(arr)
 //  println(minIndex)
 //  selectionSort(arr)
-  val mergedArray = mergeArrays(arr, arr, 0, 4, 4, 8)
-  mergedArray.forEach { println(it) }
+//  val mergedArray = mergeArrays(arr, arr, 0, 4, 4, 8)
+  mergeSort(arr)
+  arr.forEach { println(it) }
 }
