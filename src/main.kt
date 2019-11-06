@@ -8,6 +8,7 @@ fun main() {
 //  println(minIndex)
 //  selectionSort(arr)
 //  val mergedArray = mergeArrays(arr, arr, 0, 4, 4, 8)
-  mergeSort(arr)
+//  mergeSort(arr)
+  bubbleSort(arr)
   arr.forEach { println(it) }
 }
