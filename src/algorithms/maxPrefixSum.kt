@@ -1,7 +1,7 @@
 package algorithms
 
 /**
- * - Finds the maximum prefix sum in the array 'arr'
+ * - Finds the maximum prefix sum in the range [start, end] of the array 'arr'
  * - Returns a pair that contains <The Maximum Sum, The best Index for that sum>
  *
  *  Assumptions:
