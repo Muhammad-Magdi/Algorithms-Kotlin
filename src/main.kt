@@ -9,6 +9,7 @@ fun main() {
 //  selectionSort(arr)
 //  val mergedArray = mergeArrays(arr, arr, 0, 4, 4, 8)
 //  mergeSort(arr)
-  bubbleSort(arr)
-  arr.forEach { println(it) }
+//  bubbleSort(arr)
+//  arr.forEach { println(it) }
+  println(maxPrefixSum(arr, 0, 5))
 }
