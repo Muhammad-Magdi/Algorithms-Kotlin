@@ -2,7 +2,7 @@ package algorithms
 
 /**
  * - Finds the maximum prefix sum in the range [start, end] of the array 'arr'
- * - Returns a pair that contains <The Maximum Sum, The best Index for that sum>
+ * - Returns a pair that contains <The best Index for that sum, The Maximum Sum>
  *
  *  Assumptions:
  *  - If 'start' is less than 'end'.. then it finds the maximum prefix sum.
