@@ -1,4 +1,4 @@
-package algorithms
+package algorithms.naive
 
 /**
  * Returns the index of the minimum element in the `arr` starting from `startIndex`

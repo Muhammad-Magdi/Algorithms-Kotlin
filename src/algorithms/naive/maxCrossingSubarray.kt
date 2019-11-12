@@ -1,4 +1,4 @@
-package algorithms
+package algorithms.naive
 
 /**
  * - Finds the maximum subArray sum in the range [low, high] that crosses 'mid'

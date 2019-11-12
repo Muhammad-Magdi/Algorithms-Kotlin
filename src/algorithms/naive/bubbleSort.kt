@@ -1,4 +1,4 @@
-package algorithms
+package algorithms.naive
 
 /**
  * Sorts the array `arr` ascendingly in-place.

@@ -1,4 +1,4 @@
-package algorithms
+package algorithms.naive
 
 /**
  * Merges the two sorted arrays `arrA`, `arrB` into a sorted array `arrC`

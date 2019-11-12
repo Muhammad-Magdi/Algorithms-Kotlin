@@ -1,4 +1,4 @@
-package algorithms
+package algorithms.naive
 
 /**
  * - Finds the maximum prefix sum in the range [start, end] of the array 'arr'

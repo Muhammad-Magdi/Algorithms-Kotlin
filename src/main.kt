@@ -1,7 +1,7 @@
-import algorithms.*
+import algorithms.divideAndConquer.maximumSubArray
 
 fun main() {
-  val arr = intArrayOf(1, 3, 5, -7, -1, 2, 6, 10)
+  val arr = intArrayOf(1, 3, 5, -70, -1, -2, -6, 10)
 //  insert(arr, 4, arr[4])
 //  insertionSort(arr)
 //  val minIndex = selectMin(arr)
@@ -12,5 +12,5 @@ fun main() {
 //  bubbleSort(arr)
 //  arr.forEach { println(it) }
 //  println(maxPrefixSum(arr, 0, 5))
-  println(maxCrossingSubArray(arr, 3, 4, 5))
+  println(maximumSubArray(arr, 3, 6))
 }

@@ -1,4 +1,4 @@
-package algorithms
+package algorithms.naive
 
 /**
  * Inserts the `value` in its correct position in the `arr`, so that `arr` becomes ascendingly sorted.
