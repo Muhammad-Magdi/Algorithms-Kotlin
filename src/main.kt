@@ -1,4 +1,4 @@
-import algorithms.divideAndConquer.maximumSubArray
+import algorithms.*
 
 fun main() {
   val arr = intArrayOf(1, 3, 5, -70, -1, -2, -6, 10)
@@ -12,5 +12,6 @@ fun main() {
 //  bubbleSort(arr)
 //  arr.forEach { println(it) }
 //  println(maxPrefixSum(arr, 0, 5))
-  println(maximumSubArray(arr, 3, 6))
+  println(algorithms.divideAndConquer.maximumSubArray(arr, 3, 6))
+  println(algorithms.bruteForce.maximumSubArray(arr, 3, 6))
 }
