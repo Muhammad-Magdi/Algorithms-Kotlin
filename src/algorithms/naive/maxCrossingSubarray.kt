@@ -2,7 +2,7 @@ package algorithms.naive
 
 /**
  * - Finds the maximum subArray sum in the range [low, high] that crosses 'mid'
- * - Returns a Triple that contains <Thr starting index, The ending index, The maximum sum>
+ * - Returns a Triple that contains <The starting index, The ending index, The maximum sum>
  *
  *  Assumptions:
  *  low <= mid < high
