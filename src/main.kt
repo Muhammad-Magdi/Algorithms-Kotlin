@@ -12,7 +12,23 @@ fun main() {
 //  bubbleSort(arr)
 //  arr.forEach { println(it) }
 //  println(maxPrefixSum(arr, 0, 5))
-  println(algorithms.divideAndConquer.maximumSubArray(arr, 3, 7))
-  println(algorithms.bruteForce.maximumSubArray(arr, 3, 7))
-  println(algorithms.greedy.maximumSubArray(arr, 3, 7))
+//  println(algorithms.divideAndConquer.maximumSubArray(arr, 3, 7))
+//  println(algorithms.bruteForce.maximumSubArray(arr, 3, 7))
+//  println(algorithms.greedy.maximumSubArray(arr, 3, 7))
+
+  val A : Array<IntArray> = arrayOf(
+    intArrayOf(1, 2, 3),
+    intArrayOf(3, 2, 1),
+    intArrayOf(1, 0, 2))
+  val B : Array<IntArray> = arrayOf(
+    intArrayOf(1, 2, 0),
+    intArrayOf(2, 2, 1),
+    intArrayOf(0, 1, 2))
+  val C = algorithms.naive.matrixMultiplication(A, B)
+  for (i in C.indices) {
+    for (j in C[i].indices) {
+      print(C[i][j].toString() + " ")
+    }
+    println()
+  }
 }
