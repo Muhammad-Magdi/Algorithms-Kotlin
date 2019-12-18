@@ -22,12 +22,12 @@ class HeapTree {
     buildHeap()
   }
 
-  fun size() : Int {
+  fun size(): Int {
     return heapSize
   }
 
   fun removeMax(): Int {
-    A[0] = A[heapSize-1].also { A[heapSize-1] = A[0] }
+    A[0] = A[heapSize - 1].also { A[heapSize - 1] = A[0] }
     --heapSize
     heapifyDown(0)
     return A[heapSize]
@@ -73,7 +73,7 @@ class HeapTree {
       largest = r
     }
     if (largest != i) {
-      A[i] = A[largest].also{ A[largest] = A[i] }
+      A[i] = A[largest].also { A[largest] = A[i] }
       heapifyDown(largest)
     }
   }
