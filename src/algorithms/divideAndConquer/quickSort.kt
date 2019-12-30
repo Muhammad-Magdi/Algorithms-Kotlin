@@ -1,6 +1,7 @@
 package algorithms.divideAndConquer
 
 import algorithms.naive.partition
+import algorithms.naive.randomizedPartition
 
 /**
  * Sorts the array `A` ascendingly in-place.
@@ -15,7 +16,7 @@ import algorithms.naive.partition
 fun quickSort(A: IntArray, startIndex: Int = 0, endIndex: Int = A.size) {
   if (endIndex - startIndex <= 1)
     return
-  val partitionPoint = partition(A, startIndex, endIndex)
+  val partitionPoint = randomizedPartition(A, startIndex, endIndex)
   quickSort(A, startIndex, partitionPoint)
   quickSort(A, partitionPoint + 1, endIndex)
 }
