@@ -1,9 +1,7 @@
-import dataStructures.PriorityQueue
+import algorithms.divideAndConquer.quickSort
 
 fun main() {
-  val t = PriorityQueue(intArrayOf(1, 3, 0, 10, 2))
-
-  while (!t.isEmpty()) {
-    println(t.pop())
-  }
+  val A = intArrayOf(3, 2, 4, 5, 7, 1, 8, 6)
+  quickSort(A)
+  A.forEach { println(it) }
 }
